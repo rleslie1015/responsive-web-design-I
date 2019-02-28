@@ -121,7 +121,7 @@ footer {
 }
 .container {
 	margin: 0 auto;
-	width: 876px;
+	width: 800px;
 	padding-top: 10px;
 }
 
@@ -179,6 +179,7 @@ small {
 }
 @media (max-width: 500px) {
 	.container {
+		width: 100%
 		padding: 0;
 		margin: 0;
 	}
@@ -225,4 +226,32 @@ small {
  .features, .about, .services, .products, .vision {
 	 width: 100%;
  }
+}
+@media (max-width: 800px){
+	img.main-image {
+		display: none;
+ }
+ body {
+	 width: 100%;
+ }
+ .container {
+	 width:100%;
+
+ }
+ .topLine {
+	 display: flex;
+	 flex-direction: column;
+	 width: 100%;
+	 height: auto;
+ }
+ img {
+	 width: 100%;
+	 height: auto;
+ }
+ nav {
+	 width: 100%;
+	}
+	a {
+		width: 12%;
+	}
 }
