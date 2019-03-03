@@ -212,10 +212,14 @@ small {
 		flex-direction: column;
 	}
 	.topLine img.logo {
-		order: 0;
+		order: -1;
 	}
 	img.main-image {
 		display: none;
+ }
+ h1 {
+	 font-size: 1.8rem;
+
  }
  .upper-content {
 	 flex-direction: column;
@@ -236,7 +240,7 @@ small {
  }
  .container {
 	 width:100%;
-
+	 margin: 10px;
  }
  .topLine {
 	 display: flex;
@@ -252,6 +256,6 @@ small {
 	 width: 100%;
 	}
 	a {
-		width: 12%;
+	width: 100%;
 	}
 }
