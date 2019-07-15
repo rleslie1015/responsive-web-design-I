@@ -97,6 +97,8 @@ h1 {
 	font-size: 30px;
 	padding: 20px;
 	margin: 20px;
+	font-size: 72px;
+	text-align: center;
 }
 div .topLine {
 	display: flex;
@@ -257,5 +259,8 @@ small {
 	}
 	a {
 	width: 100%;
+	}
+	.topLine img.logo {
+		order: -1;
 	}
 }
